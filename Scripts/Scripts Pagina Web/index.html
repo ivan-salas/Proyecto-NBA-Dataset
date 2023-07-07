@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src=http://html5shiv.googlecode.com/svn/trunk/html5.js ></script>
+</head>
+<body>
+    <h1 style="text-align: center;">App Web Grupo 23</h1>
+    
+    <!-- Primera Consulta -->
+    <div style="margin: 20px;">
+        <form action="consulta1.php" method="get">
+            <fieldset>
+                <legend style="font-weight: bold;">Ciudades y puntos donde [equipo] ha marcado</legend>
+                <!-- Text input -->
+                <div>
+                    <label>Equipo:</label>
+                    <input type="text" name="equipo" style="margin-left: 10px;">
+                </div>
+                
+                <!-- Submit button -->
+                <div style="margin-top: 10px;">
+                    <input type="submit" value="Consultar" style="padding: 5px 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+    <!-- Segunda Consulta -->
+    <div style="margin: 20px;">
+        <form action="consulta2.php" method="get">
+            <fieldset>
+                <legend style="font-weight: bold;">Jugadores que participaron en mas de 1 equipo para [temporada1] y [temporada2]</legend>
+                <!-- Text input -->
+                <div>
+                    <label>Temporada 1:</label>
+                    <input type="text" name="temporada1" style="margin-left: 10px;">
+                </div>
+                <div>
+                    <label>Temporada 2:</label>
+                    <input type="text" name="temporada2" style="margin-left: 10px;">
+                </div>
+                
+                <!-- Submit button -->
+                <div style="margin-top: 10px;">
+                    <input type="submit" value="Consultar" style="padding: 5px 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+    <!-- Tercera Consulta -->
+    <div style="margin: 20px;">
+        <form action="consulta3.php" method="get">
+            <fieldset>
+                <legend style="font-weight: bold;">Tiros libres y porcentaje de aciertos de jugadores para [temporada]</legend>
+                <!-- Text input -->
+                <div>
+                    <label>Temporada:</label>
+                    <input type="text" name="temporada" style="margin-left: 10px;">
+                </div>
+                
+                <!-- Submit button -->
+                <div style="margin-top: 10px;">
+                    <input type="submit" value="Consultar" style="padding: 5px 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+    <!-- Agregar imagen al final -->
+    <img src="cat.jpg" alt="Gato" style="display: block; margin: 20px auto;">
+
+</body>
+</html>
+
